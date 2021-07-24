@@ -48,7 +48,7 @@ for _ in range(START_circle):
     
     for microbe in microbes:
         microbe.draw()
-        # microbe.move()
+        microbe.move()
 
 
 pygame.display.update()
